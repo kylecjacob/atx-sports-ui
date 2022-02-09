@@ -1,0 +1,14 @@
+@import "../../../assets/styles/variables.scss";
+
+* {
+  font-size: 18px;
+}
+
+.navbar {
+  margin-top: $large-margin;
+}
+
+.nav-item {
+  padding-left: $large-padding;
+  padding-right: $large-padding;
+}

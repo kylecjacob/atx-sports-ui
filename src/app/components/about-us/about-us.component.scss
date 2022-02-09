@@ -1,0 +1,27 @@
+@import "../../../assets/styles/variables.scss";
+
+p {
+  font-family: $Montserrat;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+}
+
+.right {
+  width: 60%;
+}
+
+.text-container {
+  margin-top: $large-margin;
+  margin-right: $large-margin;
+}
+
+.left {
+  width: 40%;
+}
