@@ -5,10 +5,15 @@
 }
 
 .navbar {
-  margin-top: $large-margin;
+  padding-top: $large-margin;
+  background-color: #162742;
 }
 
 .nav-item {
   padding-left: $large-padding;
   padding-right: $large-padding;
+}
+
+a {
+  color: white;
 }
