@@ -1,8 +1,16 @@
+@use '../../../assets/styles/common.scss';
 @import "../../../assets/styles/variables.scss";
 
-p {
-  font-family: $Montserrat;
-  font-size: 18px;
+.container {
+  margin-top: $large-margin;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
 }
 
 .row {
@@ -24,4 +32,17 @@ p {
 
 .left {
   width: 40%;
+}
+
+.header {
+  @include common.header; 
+}
+
+.subtitle {
+  font-size: $large-font-size;
+  font-weight: 600;
+}
+
+.nav-item.active{
+  border-bottom: 1px solid;
 }

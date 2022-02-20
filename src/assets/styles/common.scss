@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+@mixin header {
+    font-family: $Montserrat;
+    font-weight: bold;
+    font-size: $large-font-size;
+    margin-bottom: $large-margin;
+}

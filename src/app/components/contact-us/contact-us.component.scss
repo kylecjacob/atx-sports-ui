@@ -1,3 +1,4 @@
+@use '../../../assets/styles/common.scss';
 @import "../../../assets/styles/variables.scss";
 
 .container {
@@ -6,4 +7,26 @@
 
 .btn {
   width: 100px;
+  background-color: #6684b4;
+  color: white;
+}
+
+.text {
+  margin-top: $large-margin;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: $medium-margin;
+}
+
+.contact-us-form {
+  margin-top: $medium-margin;
+}
+
+.header {
+ @include common.header; 
 }
